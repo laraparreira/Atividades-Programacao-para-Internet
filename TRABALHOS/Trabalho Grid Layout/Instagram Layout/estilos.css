@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+#site{
+    display: grid;
+    grid-template-areas: 
+        'topo      topo     topo2          topo3 '
+        'foto      publi    seguidores     seguindo'
+        'bio       bio      bio            bio'
+        'editar    editar   compartilhar   susg'
+        'd1        d2       d3             d4'
+        'feed      videos   marcados       marcados'
+        'fotos     fotos    fotos          fotos'
+        'barra1    barra2   barra3         barra4'
+    ;
+
+}
+#site{
+    margin-left: 500px;
+    width: 400px; 
+}
+#site div{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+#topo{
+    grid-area: topo;
+}
+#topo2{
+    grid-area: topo2;
+}
+#topo3{
+    grid-area: topo3;
+}
+
+#foto{
+    grid-area: foto;
+}
+#foto img{
+    border-radius: 100%;
+}
+#publi{
+    grid-area: publi;
+    text-align: center;
+}
+
+#seguidores{
+    grid-area: seguidores;
+    text-align: center;
+}
+#seguindo{
+    grid-area: seguindo;
+    text-align: center;
+}
+#bio{
+    grid-area: bio;
+}
+#bio img{
+    width: 20px;
+}
+#editar{
+    grid-area: editar;
+    text-align: center;
+}
+#compartilhar{
+    grid-area: compartilhar;
+    text-align: center;
+}
+#susg{
+    grid-area: susg;
+    text-align: right; 
+}
+
+#d1{
+    grid-area: d1;
+}
+#d2{
+    grid-area: d2;
+}
+#d3{
+    grid-area: d3;
+}
+#d4{
+    grid-area: d4;
+}
+
+#feed{
+    grid-area: feed;
+
+}
+#videos{
+    grid-area: videos;
+}
+#marcados{
+    grid-area: marcados;
+}
+
+#fotos{
+    grid-area: fotos;
+    display: grid;
+    padding: 2px;
+    gap: 2px;
+    grid-template-columns: auto auto auto;
+}
+#fotos img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border: 1px solid aliceblue;
+    
+}
+
+#barra1{
+    grid-area: barra1;
+    text-align: center;
+    
+}
+#barra2{
+    grid-area: barra2;
+    text-align: center;
+    
+}
+#barra3{
+    grid-area: barra3;
+    text-align: center;
+}
+#barra4{
+    grid-area: barra4;
+    text-align: center;
+}
