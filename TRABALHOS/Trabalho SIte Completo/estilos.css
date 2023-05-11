@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+* {/* *reset* */
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;/*para ficar igual*/
+}
+.menu img{
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-size: cover; */
+    /* justify-content: left; */
+}
+.menu{
+    font-family: 'Noto Sans TC', sans-serif;
+    list-style: none; /*as bolinhas da lista são removidas*/
+    padding: 0;
+    background-color: rgb(66, 63, 63);
+    text-align: center;
+    /*opacity: 0.8; /*transparencia*/
+}
+.menu li{
+    display: inline;/*alinhados horizontal*/
+}
+.menu li a{
+    text-decoration: none;/*tira o sublinhado*/
+    padding: 20px;
+    color: #fff;
+    display: inline-block;
+    /* transition: all 3s; quando carrega o site a transition vem junto*/
+    transition: background .5s;
+}
+.menu li a:hover{/*estado quando o mouse esta sobre o elemento*/
+    background-color: rgb(110, 110, 124);
+}
+#fundo{
+    background-color: black;
+}
+#tituloPrincipal{
+    color: #fff;
+    text-align: center;
+}
+#id p{
+    color: #fff;
+}
+.poster{
+    width: 40vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("poster.jpg");
+}
+
+.titulo1{
+    text-align: center;
+}
+
+/* estilos da pagina dois */
+
+#pagina2{
+    width: 1000px;
+}
+
+#menuTemporadas{
+    list-style: none;
+    
+}
+#menuTemporadas a{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-decoration: none; /*retira o sublinhado*/
+    background-color: #95978e; 
+    color: #ffff;
+    display: inline-block; /*para ocupar somente o necessario*/
+    padding: 20px 20px; /*espaçamento interno*/
+    margin: 5px; /*espaçamento externo*/
+    border-radius: 5px; /*borda arrendodada*/
+    transition-duration: 0.5s;
+} 
+#menuTemporadas a:hover{
+    background-color: #6e553e;
+}
+
+#fundo2{
+    background-color: rgb(116, 113, 113);
+    
+}
+#temporada1{
+    background-color: #fff;
+}
+#titulo1{
+    text-align: left;
+    margin: 30px;
+}
+#foto1{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t1.jpg");
+}
+#textoT{
+    margin: 40px;
+    text-align: justify;
+    font-family: 'Barlow', sans-serif;
+}
+
+#foto2{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("s1.jpg");
+}
+#foto3{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("s2.jpg");
+}
+#foto4{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("s3.png");
+}
+#temporada2{
+    background-color: #fff;
+}
+#titulo2{
+    text-align: left;
+    margin: 30px;
+}
+#fotoT2{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t2.jpg");
+}
+#foto5{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("ts1.jpg");
+}
+#foto6{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("ts2.jpg");
+}
+#foto7{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("ts3.jpg");
+}
+#temporada3{
+    background-color: #fff;
+}
+#fotoT3{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("foto9.jpg");
+}
+#T3S1{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t3s1.jpg");
+}
+#T3S2{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t3s2.jpg");
+}
+#T3S3{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t3s3.jpg");
+}
+#temporada4{
+    background-color: #fff;
+}
+#titulo4{
+    text-align: left;
+    margin: 30px;
+}
+#fotoT4{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("foto7.png");
+}
+#T4S1{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t4s1.jpg");
+}
+#T4S2{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t4s2.jpg");
+}
+#T4S3{
+    width: 40vw; 
+    height: 50vh;
+    background-size: cover;
+    background-image: url("t4s3.jpg");
+}
+
+/*estilos da pagina 3*/
+#elencoImagens{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+/*estilos da ágina 4*/
+#paginaC{
+    background-color: #fff;
+}
+#curiosidades{
+    margin: 10px;
+    width: 1000px;
+   
+    text-align: center;
+    background-color: #fff;
+
+}
+#curiosidades h2{
+    text-align: left;
+    margin: 30px;
+}
+#fotoTopo{
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("fotoTopo.jpg");
+}
+#fotoTopo2 {
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("suicidio.jpg");
+}
+#fotoTopo3{
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("foto7.png");
+}
+#fotoSherlock{
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("fotoSher.jpg");
+}
+#fotoTopo4{
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("MattSmith.jpg");
+}
+#fotoTopo5{
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("SherlockTextMessage.jpg");
+}
+#fotoTopo6{
+    width: 50vw; 
+    height: 65vh;
+    background-size: cover;
+    background-image: url("hooper.jpg");
+}
+
+/*estilo da pagina 5*/
+#video1{
+    text-align: center;
+}
+#video1 h2{
+    color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+
+/*estilos da pagina 6*/
+#fundoGaleria{
+    background-color: black;
+}
+#galeria{
+    display: grid;
+    
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    grid-template-columns: auto auto auto auto ;
+    width: 1200px; 
+    /* height: 600px; */
+    margin: 0 auto;
+    gap: 2px;
+
+    
+}
+#galeria img{
+    width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px #fff;
+}
+
